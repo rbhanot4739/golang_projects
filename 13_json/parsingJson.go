@@ -46,6 +46,6 @@ func Connect() {
 	for cursor.Next(ctx) {
 		var record interface{}
 		cursor.Decode(&record)
-		fmt.Printf(record)
+		fmt.Println(record)
 	}
 }
