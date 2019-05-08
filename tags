@@ -1,0 +1,135 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Addr	13_json/parsingJson.go	/^type Addr struct {$/;"	t
+Address	rest-api/api/main.go	/^type Address struct {$/;"	t
+ArrayMultiplier	3_0_functions/passing_arrays_to_funs.go	/^func ArrayMultiplier(arr []int) []int {$/;"	f
+BIN_DIR	Makefile	/^BIN_DIR := $(GOPATH)\/bin$/;"	m
+Books	6_structs/main.go	/^type Books struct {$/;"	t
+Circle	10_interfaces/interfaces.go	/^type Circle struct {$/;"	t
+Connect	14_connecting_mongo/main.go	/^func Connect() {$/;"	f
+GO	Makefile	/^GO=$(shell which go)$/;"	m
+Greet	mypackage/pack.go	/^func Greet(name string) string {$/;"	f
+GroupConfig	14_connecting_mongo/main.go	/^type GroupConfig struct {$/;"	t
+HostConfig	14_connecting_mongo/main.go	/^type HostConfig struct {$/;"	t
+Joiner	1_variables/strings_ops.go	/^func Joiner() {$/;"	f
+Person	13_json/parsingJson.go	/^type Person struct {$/;"	t
+Person	rest-api/api/main.go	/^type Person struct {$/;"	t
+PointerPassing	3_0_functions/passing_pointers_to_funcs.go	/^func PointerPassing(x, y *int) {$/;"	f
+ReadOne	14_connecting_mongo/main.go	/^func ReadOne(collection *mongo.Collection, hostname string) (HostConfig, error) {$/;"	f
+Rectangle	10_interfaces/interfaces.go	/^type Rectangle struct {$/;"	t
+Shape	10_interfaces/interfaces.go	/^type Shape interface {$/;"	t
+User	9_methods/main.go	/^type User struct {$/;"	t
+addNumbers	12_file_operations/appending_files.go	/^func addNumbers(c chan<- int) {$/;"	f
+area	10_interfaces/interfaces.go	/^func (c Circle) area() float64 {$/;"	f
+area	10_interfaces/interfaces.go	/^func (r Rectangle) area() float64 {$/;"	f
+birthday	9_methods/main.go	/^func (uptr *User) birthday() {$/;"	f
+checkMapType	15_reflection_type_checking/main.go	/^func checkMapType(d interface{}, kt reflect.Kind, vt reflect.Kind) bool {$/;"	f
+checkSliceType	15_reflection_type_checking/main.go	/^func checkSliceType(d interface{}, t reflect.Kind) bool {$/;"	f
+checkType	10_interfaces/type_assertion_interfaces.go	/^func checkType(i interface{}) {$/;"	f
+consumer	11_Concurrency_Goroutines_channels/worker_pool.go	/^func consumer() {$/;"	f
+createNewPerson	rest-api/api/main.go	/^func createNewPerson(w http.ResponseWriter, r *http.Request) {$/;"	f
+cubeSum	11_Concurrency_Goroutines_channels/3_chaining_goroutines_channels.go	/^func cubeSum(number int, shan chan int) {$/;"	f
+days	1_variables/strings_ops.go	/^var days = []string{"Monday", "Tuesday", "Wednesday"}$/;"	v
+describe	10_interfaces/type_assertion_interfaces.go	/^func describe(i interface{}) {$/;"	f
+doSomething	11_Concurrency_Goroutines_channels/worker_pool.go	/^func doSomething(v int) int {$/;"	f
+getArea	10_interfaces/interfaces.go	/^func getArea(s Shape) float64 {$/;"	f
+getPerson	rest-api/api/main.go	/^func getPerson(w http.ResponseWriter, r *http.Request) {$/;"	f
+getPersons	rest-api/api/main.go	/^func getPersons(w http.ResponseWriter, r *http.Request) {$/;"	f
+greet	11_Concurrency_Goroutines_channels/1_goroutine.go	/^func greet(msg string) {$/;"	f
+greet	3_0_functions/main.go	/^func greet(name string) string {$/;"	f
+index_handler	99_simple_web_app/hello.go	/^func index_handler(w http.ResponseWriter, r *http.Request) {$/;"	f
+jobs	11_Concurrency_Goroutines_channels/worker_pool.go	/^var jobs = make(chan int, 1)$/;"	v
+main	10_interfaces/interfaces.go	/^func main() {$/;"	f
+main	10_interfaces/interfaces.go	/^package main$/;"	p
+main	10_interfaces/type_assertion_interfaces.go	/^func main() {$/;"	f
+main	10_interfaces/type_assertion_interfaces.go	/^package main$/;"	p
+main	10_interfaces/type_switch_interfaces.go	/^func main() {$/;"	f
+main	10_interfaces/type_switch_interfaces.go	/^package main$/;"	p
+main	11_Concurrency_Goroutines_channels/1_goroutine.go	/^func main() {$/;"	f
+main	11_Concurrency_Goroutines_channels/1_goroutine.go	/^package main$/;"	p
+main	11_Concurrency_Goroutines_channels/2_channels.go	/^func main() {$/;"	f
+main	11_Concurrency_Goroutines_channels/2_channels.go	/^package main$/;"	p
+main	11_Concurrency_Goroutines_channels/3_chaining_goroutines_channels.go	/^func main() {$/;"	f
+main	11_Concurrency_Goroutines_channels/3_chaining_goroutines_channels.go	/^package main$/;"	p
+main	11_Concurrency_Goroutines_channels/4_unbuffered_channels.go	/^func main() {$/;"	f
+main	11_Concurrency_Goroutines_channels/4_unbuffered_channels.go	/^package main$/;"	p
+main	11_Concurrency_Goroutines_channels/select.go	/^func main() {$/;"	f
+main	11_Concurrency_Goroutines_channels/select.go	/^package main$/;"	p
+main	11_Concurrency_Goroutines_channels/waitgroups.go	/^func main() {$/;"	f
+main	11_Concurrency_Goroutines_channels/waitgroups.go	/^package main$/;"	p
+main	11_Concurrency_Goroutines_channels/worker_pool.go	/^func main() {$/;"	f
+main	11_Concurrency_Goroutines_channels/worker_pool.go	/^package main$/;"	p
+main	12_file_operations/appending_files.go	/^func main() {$/;"	f
+main	12_file_operations/appending_files.go	/^package main$/;"	p
+main	12_file_operations/entire_file.go	/^func main() {$/;"	f
+main	12_file_operations/entire_file.go	/^package main$/;"	p
+main	12_file_operations/line_chunks.go	/^func main() {$/;"	f
+main	12_file_operations/line_chunks.go	/^package main$/;"	p
+main	12_file_operations/writing_files.go	/^func main() {$/;"	f
+main	12_file_operations/writing_files.go	/^package main$/;"	p
+main	13_json/parsingJson.go	/^func main() {$/;"	f
+main	13_json/parsingJson.go	/^package main$/;"	p
+main	14_connecting_mongo/main.go	/^func main() {$/;"	f
+main	14_connecting_mongo/main.go	/^package main$/;"	p
+main	15_reflection_type_checking/main.go	/^func main() {$/;"	f
+main	15_reflection_type_checking/main.go	/^package main$/;"	p
+main	1_variables/main.go	/^func main() {$/;"	f
+main	1_variables/main.go	/^package main$/;"	p
+main	1_variables/strings_ops.go	/^package main$/;"	p
+main	2_arrays/main.go	/^func main() {$/;"	f
+main	2_arrays/main.go	/^package main$/;"	p
+main	3_0_functions/main.go	/^func main() {$/;"	f
+main	3_0_functions/main.go	/^package main$/;"	p
+main	3_0_functions/passing_arrays_to_funs.go	/^package main$/;"	p
+main	3_0_functions/passing_pointers_to_funcs.go	/^package main$/;"	p
+main	3_1_cloures_anon_funcs/main.go	/^func main() {$/;"	f
+main	3_1_cloures_anon_funcs/main.go	/^package main$/;"	p
+main	3_2_variadic_functions/main.go	/^func main() {$/;"	f
+main	3_2_variadic_functions/main.go	/^package main$/;"	p
+main	4_conditional_loops/main.go	/^func main() {$/;"	f
+main	4_conditional_loops/main.go	/^package main$/;"	p
+main	5_pointers/main.go	/^func main() {$/;"	f
+main	5_pointers/main.go	/^package main$/;"	p
+main	6_structs/main.go	/^func main() {$/;"	f
+main	6_structs/main.go	/^package main$/;"	p
+main	7_slices/main.go	/^func main() {$/;"	f
+main	7_slices/main.go	/^package main$/;"	p
+main	8_range_maps/main.go	/^func main() {$/;"	f
+main	8_range_maps/main.go	/^package main$/;"	p
+main	98_packages/main.go	/^func main() {$/;"	f
+main	98_packages/main.go	/^package main$/;"	p
+main	99_simple_web_app/accessing_internet.go	/^func main() {$/;"	f
+main	99_simple_web_app/accessing_internet.go	/^package main$/;"	p
+main	99_simple_web_app/hello.go	/^func main() {$/;"	f
+main	99_simple_web_app/hello.go	/^package main$/;"	p
+main	9_methods/main.go	/^func main() {$/;"	f
+main	9_methods/main.go	/^package main$/;"	p
+main	rest-api/api/main.go	/^func main() {$/;"	f
+main	rest-api/api/main.go	/^package main$/;"	p
+makeDigits	11_Concurrency_Goroutines_channels/3_chaining_goroutines_channels.go	/^func makeDigits(number int, dchan chan int) {$/;"	f
+makeEmail	9_methods/main.go	/^func (u User) makeEmail() string {$/;"	f
+multiplier	3_2_variadic_functions/main.go	/^func multiplier(nums ...int) int {$/;"	f
+mypackage	mypackage/pack.go	/^package mypackage$/;"	p
+outer	3_1_cloures_anon_funcs/main.go	/^func outer() func(n int) {$/;"	f
+passingStructPtr	6_structs/main.go	/^func passingStructPtr(x *Books) {$/;"	f
+passingStructs	6_structs/main.go	/^func passingStructs(x Books) {$/;"	f
+persons	rest-api/api/main.go	/^var persons []Person$/;"	v
+printer	11_Concurrency_Goroutines_channels/4_unbuffered_channels.go	/^func printer(st string, c chan bool) {$/;"	f
+producer	11_Concurrency_Goroutines_channels/worker_pool.go	/^func producer(n int) {$/;"	f
+readByChunks	12_file_operations/line_chunks.go	/^func readByChunks(f *os.File, n int) {$/;"	f
+readByLines	12_file_operations/line_chunks.go	/^func readByLines(f *os.File) {$/;"	f
+res	11_Concurrency_Goroutines_channels/worker_pool.go	/^var res = make(chan int, 1)$/;"	v
+showArrDetails	7_slices/main.go	/^func showArrDetails(arr []int) {$/;"	f
+sqrSum	11_Concurrency_Goroutines_channels/3_chaining_goroutines_channels.go	/^func sqrSum(number int, schan chan int) {$/;"	f
+squares	3_0_functions/main.go	/^func squares(x float64, y float64) (float64, float64) {$/;"	f
+sumSquares	11_Concurrency_Goroutines_channels/2_channels.go	/^func sumSquares(number int, channel chan int) {$/;"	f
+typeChecker	10_interfaces/type_switch_interfaces.go	/^func typeChecker(i interface{}) {$/;"	f
+usingSwitch	4_conditional_loops/main.go	/^func usingSwitch(color string) {$/;"	f
+wg	11_Concurrency_Goroutines_channels/worker_pool.go	/^var wg sync.WaitGroup$/;"	v
+worker	11_Concurrency_Goroutines_channels/waitgroups.go	/^func worker(j int, grp *sync.WaitGroup) {$/;"	f
+workerFunc	11_Concurrency_Goroutines_channels/worker_pool.go	/^func workerFunc(i <-chan int, o chan<- int) {$/;"	f
+writeToFile	12_file_operations/appending_files.go	/^func writeToFile(fpath *os.File, ch <-chan int) {$/;"	f

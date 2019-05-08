@@ -1,9 +1,9 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"io/ioutil"
-	"flag"
 )
 
 func main() {
@@ -15,5 +15,6 @@ func main() {
 	} else {
 		fmt.Println("Byte slice of the file", data)
 		fmt.Println("String contents of the file", string(data))
+
 	}
 }
